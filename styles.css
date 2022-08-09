@@ -1,0 +1,95 @@
+body{
+margin: 0;
+text-align : center;
+font-family: 'Roboto Slab', serif;
+}
+.welcome{
+  height : 50px;
+  width: 200px;
+  text-align: center;
+  background-color: #FF8243;
+  border-radius: 50px;
+  position: fixed;
+  top:10px;
+}
+h1{
+margin-top:0;
+padding: 100px 0 0 0;
+font-family: 'Satisfy', cursive;
+
+}
+h2{
+font-family: 'Tiro Gurmukhi', serif;
+}
+h3{
+font-family: 'Tiro Gurmukhi', serif;
+}
+p{
+  font-family: 'Signika Negative', sans-serif;
+}
+.my{
+  margin-top: 200px;
+  height:200px;
+  width:200px;
+}
+.profile{
+  position:relative;
+}
+.profileic{
+height:100px;
+width:100px;
+position: absolute;
+top:50px;
+left: 710px;
+}
+.skill1{
+  height: 100px;
+  width:150px;
+}
+.skill2{
+  height: 100px;
+  width:200px;
+}
+.skill3{
+  height:200px;
+  width:200px;
+}
+.top-container{
+  background-image: url("https://i.pinimg.com/736x/ed/89/df/ed89df57f8aecc3fcdd12521d5348b0f.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:300px;
+}
+.middle-container1{
+background-color: #C2FFF9;
+height:520px;
+}
+.skills{
+  margin-top :0 ;
+  padding:10px ;
+  background-color:#CDF0EA;
+  position: relative;
+}
+.target{
+  position:absolute;
+  height:100px;
+  width:100px;
+  left: 100px;
+  top: 50px;
+}
+.bottom-container{
+  padding:10px;
+  background-color: #EFFFFD;
+  position: relative;
+}
+.email{
+  position: absolute;
+  height:100px;
+  width:100px;
+  right:200px;
+  top:100px;
+}
+img:hover{
+  background-color: black;
+}
