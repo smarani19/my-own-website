@@ -26,6 +26,7 @@ font-family: 'Tiro Gurmukhi', serif;
 }
 p{
   font-family: 'Signika Negative', sans-serif;
+  padding: 10px;
 }
 .my{
   margin-top: 200px;
@@ -42,17 +43,30 @@ position: absolute;
 top:50px;
 left: 710px;
 }
+.skill-row{
+  display: inline-block;
+  width: 50%;
+  margin:30px auto;
+  text-align: left;
+  line-height: 2;
+}
 .skill1{
-  height: 100px;
-  width:150px;
+  height: 150px;
+  width:250px;
+  float: right;
+  margin-left: 30px;
 }
 .skill2{
-  height: 100px;
-  width:200px;
+  height:200px;
+  width:330px;
+  float: left;
+  margin-right:30px;
 }
 .skill3{
   height:200px;
   width:200px;
+  float: right;
+  margin-left: 30px;
 }
 .top-container{
   background-image: url("https://i.pinimg.com/736x/ed/89/df/ed89df57f8aecc3fcdd12521d5348b0f.jpg");
@@ -63,7 +77,8 @@ left: 710px;
 }
 .middle-container1{
 background-color: #C2FFF9;
-height:520px;
+height:550px;
+position:relative;
 }
 .skills{
   margin-top :0 ;
